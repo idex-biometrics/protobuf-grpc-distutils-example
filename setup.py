@@ -8,9 +8,9 @@ setuptools.setup(
             'source_dir':        './proto',
             'proto_root_path':   './proto',
             'extra_proto_paths': [],
-            'output_dir':        './src/helloworld',
+            'output_dir':        './src',
             'proto_files':       [
-                './proto/hello.proto',
+                './proto/helloworld/hello.proto',
             ],
         }
     }

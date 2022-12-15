@@ -1,6 +1,6 @@
 [project]
 name = "protobuf-grpc-distutils-example"
-version = "0.1"
+dynamic = ["version"]
 
 [build-system]
 requires = [
