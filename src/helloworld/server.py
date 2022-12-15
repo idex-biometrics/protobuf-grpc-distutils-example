@@ -8,7 +8,7 @@ import helloworld.hello_pb2_grpc as helloworld_pb2_grpc
 
 class Greeter(helloworld_pb2_grpc.GreeterServicer):
     def SayHello(self, request, context):
-        return helloworld_pb2.HelloReply(message='Hello, %s!' % request.name)
+        return helloworld_pb2.HelloResponse(message='Hello, %s!' % request.name)
 
 
 def serve():
