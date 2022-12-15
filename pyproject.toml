@@ -1,6 +1,11 @@
 [project]
 name = "protobuf-grpc-distutils-example"
 dynamic = ["version"]
+dependencies = [
+    "grpcio",
+    "protobuf",
+    
+]
 
 [build-system]
 requires = [
