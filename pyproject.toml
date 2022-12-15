@@ -1,0 +1,11 @@
+[project]
+name = "protobuf-grpc-distutils-example"
+version = "0.1"
+
+[build-system]
+requires = [
+    "setuptools>=61.0", 
+    "wheel",
+    "protobuf_grpc_distutils @ git+ssh://github.com/idex-biometrics/protobuf-grpc-distutils@main#egg=protobuf_grpc_distutils"
+]
+build-backend = "setuptools.build_meta"
