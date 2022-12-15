@@ -9,3 +9,9 @@ requires = [
     "protobuf_grpc_distutils @ git+ssh://github.com/idex-biometrics/protobuf-grpc-distutils@main#egg=protobuf_grpc_distutils"
 ]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "helloworld.__version__"}
+
+[tool.setuptools_scm]
+write_to = "src/helloworld/_version.py"
