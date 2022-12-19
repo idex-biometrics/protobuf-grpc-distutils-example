@@ -10,7 +10,7 @@ setuptools.setup(
             'extra_proto_paths': [],
             'output_dir':        './src',
             'proto_files':       [
-                './proto/helloworld/hello.proto',
+                './proto/helloworld/hello/hello.proto',
             ],
         }
     }

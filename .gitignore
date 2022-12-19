@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Auto-generated Python
+_version.py
+src/helloworld/hello
