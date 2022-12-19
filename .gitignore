@@ -130,4 +130,4 @@ dmypy.json
 
 # Auto-generated Python
 _version.py
-src/helloworld/hello
+helloworld/hello

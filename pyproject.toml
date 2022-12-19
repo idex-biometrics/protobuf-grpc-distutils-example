@@ -20,8 +20,11 @@ build-backend = "setuptools.build_meta"
 version = {attr = "helloworld.__version__"}
 
 [tool.setuptools_scm]
-write_to = "src/helloworld/_version.py"
+write_to = "helloworld/_version.py"
 
 [project.scripts]
 hello_client = "helloworld.client:run"
 hello_server = "helloworld.server:serve"
+
+[tool.setuptools.packages]
+find = {}
